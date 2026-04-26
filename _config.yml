@@ -1,0 +1,41 @@
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-remote-theme
+
+title: "김영언"
+name: "김영언"
+description: "AI 연구부터 서비스 개발, 현장 검증까지"
+url: "https://yoooung03.github.io"
+
+minimal_mistakes_skin: "default"
+
+author:
+  name: "김영언"
+  avatar: "/assets/images/profile.jpg"
+  bio: "KCI 등재 논문 제1저자 · IBM AI 해커톤 대상 · 코멘토 일경험 수료<br><br>AI를 설계하고, 현장에서 검증합니다."
+  location: "Gyeongnam, Korea"
+  email: "loveeon8529@gmail.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yoooung03"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.co.kr/citations?user=w68zkyAAAAAJ"
+    - label: "Resume"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/resume.pdf"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+include:
+  - _pages
