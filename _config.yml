@@ -5,8 +5,8 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-title: "김영언"
-name: "김영언"
+title: "Portfolio"
+name: "Portfolio"
 description: "AI 연구부터 서비스 개발, 현장 검증까지"
 url: "https://yoooung03.github.io"
 
@@ -15,7 +15,7 @@ minimal_mistakes_skin: "default"
 author:
   name: "김영언"
   avatar: "/assets/images/profile.jpg"
-  bio: "KCI 등재 논문 제1저자 · IBM AI 해커톤 대상 · 코멘토 일경험 수료<br><br>AI를 설계하고, 현장에서 검증합니다."
+  bio: "KCI 등재 논문 제1저자<br>IBM AI 해커톤 대상<br>코멘토 일경험 수료<br><br>AI를 설계하고,<br>현장에서 검증합니다."  
   location: "Gyeongnam, Korea"
   email: "loveeon8529@gmail.com"
   links:
@@ -36,6 +36,9 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+head_scripts:
+  - https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap
 
 include:
   - _pages

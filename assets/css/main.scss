@@ -1,0 +1,77 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+body {
+  font-family: 'Noto Sans KR', sans-serif !important;
+  font-weight: 300;
+}
+
+/* About 페이지 */
+.page__content {
+  font-size: 0.82em;
+  line-height: 1.8;
+}
+
+.page__content h2 {
+  font-size: 1.2em;
+  margin-top: 2em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.page__content table {
+  font-size: 0.85em;
+}
+
+/* 사이드바 */
+.author__bio {
+  font-size: 0.75em !important;
+}
+
+.sidebar.sticky {
+  padding-right: 2em;
+}
+
+.page__content {
+  padding-left: 1em;
+}
+
+/* 메인 feature_row 카드 */
+.feature__item {
+  font-size: 0.8em;
+}
+
+.feature__item .archive__item-title {
+  font-size: 1em;
+  margin-top: 0.5em;
+}
+
+.feature__item .archive__item-excerpt {
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.feature__item .archive__item-teaser {
+  height: 180px;
+  overflow: hidden;
+}
+
+.feature__item .archive__item-teaser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 섹션 제목 */
+.page__hero--overlay .page__title {
+  font-size: 2em;
+}
+
+.page__hero--overlay .page__lead {
+  font-size: 0.9em;
+}
