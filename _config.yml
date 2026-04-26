@@ -25,9 +25,6 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.co.kr/citations?user=w68zkyAAAAAJ"
-    - label: "Resume"
-      icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/resume.pdf"
 
 defaults:
   - scope:
