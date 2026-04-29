@@ -39,3 +39,5 @@ head_scripts:
 
 include:
   - _pages
+
+google_analytics: "G-QLK470T0NY"
