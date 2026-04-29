@@ -59,8 +59,8 @@ feature_row2:
     btn_label: "논문 보기"
     btn_class: "btn--primary"
   - image_path: /assets/images/paper3.png
-    title: "KoBART 파인튜닝 기반 면접 질문 생성 연구"
-    excerpt: "KCI 학술지 · 2025<br>KoBART 활용 면접 질문 생성 모델"
+    title: "전이 학습 기반 반려견 이미지 이진 분류 모델 비교 및 실종견 탐색 애플리케이션 적용 연구"
+    excerpt: "KIIT Conference · 2025<br>6개 모델 비교 실험, EfficientNet-B0 · Accuracy 99.3% 달성"
     url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12545404"
     btn_label: "논문 보기"
     btn_class: "btn--primary"
