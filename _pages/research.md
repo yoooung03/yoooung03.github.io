@@ -65,11 +65,11 @@ classes: wide
 
 ---
 
-## 📄 KCI 학술지 · 3저자
+## 📄 KIIT Conference · 3저자
 
 **Dog vs Not-Dog 이진 분류 기반 실종견 탐색 딥러닝 모델 비교 연구**
 
-![KCI 논문 2](/assets/images/paper3.png)
+![KIIT 논문 1](/assets/images/paper3.png)
 
 반려견 견종 분류 프로젝트 '추견 60분'을 함께 개발한 팀원으로서, 데이터셋 구축과 모바일 앱 개발에 기여한 연구입니다.
 
